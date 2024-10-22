@@ -1,0 +1,425 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .online-course {
+    padding: 50px 20px;
+    background-color: #f0f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .text-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .text-content h4 {
+    color: orange;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .text-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: orange;
+  }
+  
+  .text-content p {
+    font-size: 1.1em;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  .benefits {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-item {
+    flex: 1;
+    font-size: 1em;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  .benefit-item i {
+    color: orange;
+    margin-right: 10px;
+  }
+  
+  .cta-btn {
+    background-color: orange;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+  }
+  
+  .cta-btn:hover {
+    background-color: darkorange;
+  }
+  
+  .image-content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 10px;
+    position: relative;
+  }
+  
+  .image-content img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .image1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 200px;
+  }
+  
+  .image2 {
+    width: 200px;
+    height: 150px;
+  }
+  
+  .image3 {
+    width: 250px;
+    height: 200px;
+  }
+  
+  .benefit-section {
+    padding: 50px 20px;
+    background-color: #e7f0f4;
+    text-align: center;
+  }
+  
+  .benefit-section h3 {
+    color: orange;
+    font-size: 1.3em;
+    margin-bottom: 10px;
+  }
+  
+  .benefit-section h2 {
+    font-size: 2.2em;
+    margin-bottom: 40px;
+  }
+  
+  .benefit-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .benefit-box {
+    text-align: center;
+    padding: 20px;
+    max-width: 250px;
+    flex: 1;
+  }
+  
+  .benefit-box img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-box h4 {
+    font-size: 1.2em;
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .image-content {
+      justify-content: center;
+      position: static;
+    }
+  
+    .image1 {
+      position: static;
+      width: 100%;
+      height: auto;
+    }
+  
+    .benefit-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .benefit-box {
+      margin-bottom: 20px;
+    }
+  }
+  /* /new*  */ 
+
+    
+
+.hero1 {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.hero1-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero1-image {
+    position: relative;
+    flex: 1;
+}
+
+.hero1-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.play-button img {
+    width: 50px;
+    height: 50px;
+}
+
+.hero1-text {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.service-box {
+    background-color: #f1f3f6;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    flex: 1 1 calc(50% - 20px);
+}
+
+.service-box img {
+    max-width: 50px;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+    .hero1-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .services {
+        flex-direction: column;
+    }
+}
+/* last */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+} */
+
+.testimonial-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+  background-color: #f9f9f9;
+  gap: 30px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.testimonial-content {
+  max-width: 500px;
+  text-align: center;
+}
+
+.testimonial-content h3 {
+  color: #f1c40f;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.testimonial-content h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.quote-icon {
+  font-size: 50px;
+  color: #f1c40f;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.role {
+  color: #f1c40f;
+}
+
+.testimonial-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.indicator {
+  width: 10px;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.indicator.active {
+  background-color: #f1c40f;
+}
+
+.testimonial-image img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .testimonial-section {
+    flex-direction: column;
+  }
+
+  .testimonial-content {
+    order: 2;
+    margin-top: 30px;
+  }
+
+  .testimonial-image {
+    order: 1;
+  }
+}
+
+/* teachr */
+.teachers-section {
+  padding: 50px;
+  text-align: center;
+  background-color: #f1f6fc;
+}
+
+.teachers-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.teachers-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.teacher-card {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.teacher-card img {
+  width: 100%;
+  height: auto;
+  /* border-radius: 10px; */
+  margin-bottom: 15px;
+}
+
+.teacher-card h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+
+.teacher-card p {
+  color: #888;
+  font-size: 1rem;
+}

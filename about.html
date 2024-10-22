@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link rel="stylesheet" href="about.css" />
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Include Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <style>
+      .dropdown-menu {
+        display: none;
+        position: absolute;
+        background-color: white;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 230px; /* Ensure a fixed width */
+        white-space: nowrap; /* Prevent text from wrapping */
+        overflow: hidden; /* Hide the overflow text */
+        text-overflow: ellipsis; /* Show the ellipsis when the text overflows */
+      }
+
+      .dropdown-links:hover {
+        color: blue;
+      }
+
+      .dropdown-links {
+        color: rgb(68, 68, 68);
+        text-decoration: none;
+        padding: 0.5rem 1rem;
+        display: block;
+      }
+
+      .nav-item:hover .dropdown-menu {
+        display: block;
+      }
+    </style>
+    <!--  -->
+  </head>
+  <body>
+    <div class="banner">
+      <div class="banner-item">
+        <i class="fas fa-phone"></i>
+        <span>Telephone</span>
+        <p>+918236809542</p>
+      </div>
+      <div class="banner-item">
+        <i class="fas fa-envelope"></i>
+        <span>Email Address</span>
+        <p>hcl.indore2023@gmail.com</p>
+      </div>
+      <div class="banner-item">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>Official Address</span>
+        <p>109,206, Prem Plazza, Ashok Nagar, Bharwakua,Indore, (M.P)</p>
+      </div>
+      <div class="banner-item">
+        <span> Reputed IT Training & Placement Institute </span>
+        <!-- <p>HOME</p> -->
+      </div>
+    </div>
+    <header>
+      <div class="navbar">
+        <div class="logo">
+          <img src="./hcl.png" alt="RB Science Logo" />
+        </div>
+        <nav>
+          <ul>
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="courses.html">Services</a></li>
+          
+
+            <li class="nav-item dropdown">
+              <a href="#" class="nav-links">Facility</a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="" class="dropdown-links">Online Classes </a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-links">Free Notes</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-links">Live Coding</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-links">Certificate</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-links">2 days Free Demo</a>
+                </li>
+                <li>
+                  <a href="" class="dropdown-links">Industrial Environment</a>
+                </li>
+              </ul>
+            </li>
+
+            <li><a href="#">Certificate</a></li>
+            
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>About</h1>
+        <p>
+          <a href="home.html" class="xyz">Home</a> /
+          <span style="color: yellow">About</span>
+        </p>
+      </div>
+    </section>
+
+    <!-- new -->
+    <section class="online-course" style="background-color: white">
+      <div class="container">
+        <div class="text-content">
+          <h4>Education For All</h4>
+          <h1>
+            Why create an online course with <span class="highlight">HCL</span>?
+          </h1>
+          <p>
+            HCL has a strong background in technology and software development.
+            You may benefit from their expertise in creating advanced, scalable
+            online learning platforms or providing cutting-edge technology
+            solutions for your course.
+          </p>
+
+          <div class="benefits">
+            <div class="benefit-item"><i>✔</i> No technical headaches</div>
+            <div class="benefit-item"><i>✔</i>Lab Environments</div>
+            <div class="benefit-item"><i>✔</i> Free Notes Availavble</div>
+            <div class="benefit-item"><i>✔</i> Certificate Provide</div>
+            <div class="benefit-item"><i>✔</i> Experienced Trainers</div>
+          </div>
+
+          <button class="cta-btn">View All Courses</button>
+        </div>
+
+        <div class="image-content">
+          <img src="./education-img-2.jpg" />
+          <img src="./education-img-3.jpg" />
+          <img src="./education-img-4.jpg" />
+        </div>
+      </div>
+    </section>
+
+    <!-- new -->
+
+    <section class="hero1">
+      <div class="hero1-content">
+        <div class="hero1-image">
+          <img src="./vid.png" alt="Students Learning" />
+          <div class="play-button">
+            <a href="./hcl vdo.mp4">
+              <i class="fa fa-play-circle" style="color: #fdbf07"></i>
+            </a>
+          </div>
+        </div>
+        <div class="hero1-text">
+          <h2 style="color: #fdbf07">Learning Experience</h2>
+          <h1>How can I help you?</h1>
+          <div class="services">
+            <div class="service-box">
+              <i
+                class="fa-solid fa-book-open"
+                style="font-size: 80px; color: #fdbf07"
+              ></i>
+              <h3>Face to face learning</h3>
+            </div>
+            <div class="service-box">
+              <i
+                class="fa-solid fa-chalkboard-user"
+                style="font-size: 60px; color: #fdbf07"
+              ></i>
+              <h3>Experienced instructor</h3>
+            </div>
+            <div class="service-box">
+              <i
+                class="fa-solid fa-newspaper"
+                style="font-size: 60px; color: #fdbf07"
+              ></i>
+              <h3>Certificate</h3>
+            </div>
+            <div class="service-box">
+              <i
+                class="fa-solid fa-route"
+                style="font-size: 60px; color: #fdbf07"
+              ></i>
+
+              <h3>Online/Offline support 24/7</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- last -->
+
+    <!-- testminol -->
+    <section class="testimonial-section">
+      <div class="testimonial-content">
+        <h3>Feedback</h3>
+        <h1>What student say</h1>
+        <div class="quote">
+          <!-- <span class="quote-icon">“</span> -->
+          <i
+            class="fa-solid fa-quote-right"
+            style="font-size: 40px; color: #fdbf07"
+          ></i>
+          <p>
+            Real-world applications: Many students appreciate that HCL’s
+            training is focused on practical, real-world scenarios rather than
+            just theoretical knowledge. The hands-on projects and case studies
+            help them understand how concepts are applied in actual business
+            environments. <br /><br />
+            Live projects: Several students have mentioned that working on live
+            projects gave them the confidence to handle similar tasks in their
+            professional careers.
+          </p>
+        </div>
+
+        <div class="testimonial-indicators">
+          <span class="indicator active"></span>
+          <span class="indicator"></span>
+          <span class="indicator"></span>
+        </div>
+      </div>
+
+      <div class="testimonial-image">
+        <img src="event-img-5.png" alt="Student Image" />
+      </div>
+    </section>
+
+    <!--  -->
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h4>Find Us</h4>
+          <p>109,206, Prem Plazza, Ashok Nagar, Bhawarkua,Indore, (M.P)</p>
+
+          <p><a href="mailto:email@protected">hcl.indore2023@gmail.com</a></p>
+          <p><a href="tel:+8236809542"></a></p>
+        </div>
+        <div class="footer-section">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">All Courses</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Trainings</h4>
+          <ul>
+            <li><a href="#">Internship Training</a></li>
+            <li><a href="#">Corporate Training</a></li>
+            <li><a href="#">Placement Training</a></li>
+            <li><a href="#">Industrial Training</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Popular Subjects</h4>
+          <ul>
+            <li><a href="#">MERN FULL STACK</a></li>
+            <li><a href="#">JAVA FULL STACK</a></li>
+            <li><a href="#">PYTHON FULL STACK</a></li>
+            <li><a href="#">ANDROID & FLUTTER</a></li>
+            <li><a href="#">ML & AI</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>Designed by HCL INSTITUTE</p>
+      </div>
+    </footer>
+    <!-- script -->
+    <script>
+      window.addEventListener("load", function () {
+        document.body.classList.add("hero-loaded");
+      });
+    </script>
+  </body>
+</html>
